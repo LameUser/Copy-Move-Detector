@@ -5,6 +5,22 @@
 This tool helps you to detect image forgery using the SIFT algo, and this is an easy GUI app which will detect and show the abnormalities present in the image. 
 
 
+## System Design / Architecture
+
+### Steps involved in the process:
+
+1.	First, the SIFT algorithm from the image is used to draw out the key points.
+2.	Then, the feature descriptor is drawn out from every key point on the image including 128 dimensional.
+3.	The similarities between the descriptors are calculated to specify the resemblance among the descriptors for specifying the potential forgery on the image. 
+4.	The basic obstacle in this algorithm is the computational complexity of the matching stage where it is very high because of the big number of key points drawn  out from the image and the matching process amongst them. 
+5.	As a result, we use the clustering algorithm for clustering the key points depending on their descriptors.
+6.	Specifying the data points for every cluster such that the items in the same cluster (as similar as possible), but the items that belong to the diverse clusters are as various as possible.
+7.	Every center of the cluster key points, and their close neighbors are matched only to other clusters rather than assembling all the other key points.
+
+![image](https://github.com/LameUser/Copy-Move-Detector/assets/73399578/1cf0e931-fa34-412b-be3b-0d98f9f4b172)
+
+
+
 ## Working Principle
 
 Image forgery means manipulation of the digital image to conceal some meaningful or useful information of the image. There are cases when it is difficult to identify the edited region from the original image. The detection of a forged image is driven by the need of authenticity and to maintain integrity of the image.
