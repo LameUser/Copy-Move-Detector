@@ -17,7 +17,8 @@ This tool helps you to detect image forgery using the SIFT algo, and this is an 
 6.	Specifying the data points for every cluster such that the items in the same cluster (as similar as possible), but the items that belong to the diverse clusters are as various as possible.
 7.	Every center of the cluster key points, and their close neighbors are matched only to other clusters rather than assembling all the other key points.
 
-![image](https://github.com/LameUser/Copy-Move-Detector/assets/73399578/1cf0e931-fa34-412b-be3b-0d98f9f4b172)
+![image](https://github.com/LameUser/Copy-Move-Detector/assets/73399578/61076087-b01f-4957-9ab0-3ddbb8003b07)
+
 
 
 
