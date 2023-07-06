@@ -50,3 +50,9 @@ Output for an original image:
 Output for a forged image:
 
 ![image](https://github.com/LameUser/Copy-Move-Detector/assets/73399578/ca3bc7af-6beb-4354-8822-d2935c4bf7f7)
+
+
+
+## Author
+
+**_[LameUser](https://github.com/LameUser)_**
