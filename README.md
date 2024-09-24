@@ -1,4 +1,4 @@
-# Copy-Move-Detector
+# Image Forgery Detector:
 
 
 ## Discription
