@@ -1,4 +1,4 @@
-# Image Forgery Detector:
+# Image Forgery Detection Tool: 
 
 
 ## Discription
